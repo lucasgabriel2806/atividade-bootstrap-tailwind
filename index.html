@@ -63,10 +63,10 @@
     <div class="container">
   
       <!-- Badge -->
-      <h1>Curso HTML, CSS & JavaScript <span class="badge text-bg-secondary">Novo</span></h1>
+      <h1>Curso HTML, CSS & JavaScript <span class="badge text-bg-secondary mt-5">Novo</span></h1>
   
       <!-- Carousel -->
-      <div id="carouselExampleIndicators" class="carousel slide">
+      <div id="carouselExampleIndicators" class="carousel slide mt-3">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -94,7 +94,7 @@
       </div>
   
       <!-- Accordion -->
-      <div class="accordion container" id="accordionExample">
+      <div class="accordion container mt-5" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -134,7 +134,7 @@
       </div>
 
       <!-- Collapse -->
-      <p class="d-inline-flex gap-1">
+      <p class="d-inline-flex gap-1 mt-3">
         <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
           Ferramentas
         </a>
@@ -150,7 +150,7 @@
       
   
       <!-- Card -->
-      <div class="d-flex justify-content-around">
+      <div class="d-flex justify-content-around mt-5">
         <div class="card" style="width: 18rem;">
           <img src="img/tim-berners-lee.jpg" class="card-img-top" alt="Tim Berners-Lee">
           <div class="card-body">
@@ -162,7 +162,7 @@
       </div>
 
 
-      <h2>Elementos HTML</h2>
+      <h2 class="mt-5">Elementos HTML</h2>
 
       <!-- List group -->
       <ul class="list-group">
@@ -175,7 +175,7 @@
 
       <!-- Modal -->
       <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Ver Mais
       </button>
 
@@ -223,7 +223,7 @@
         </div>
 
         <!-- Scrollspy -->
-        <div class="row">
+        <div class="row mt-5">
           <div class="col-4">
             <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
               <nav class="nav nav-pills flex-column">
@@ -271,8 +271,18 @@
                 <p>Posso usar as propriedades <code>width</code> e <code>height</code>.</p>
               </div>
               <div id="item-3">
-                <h5>Item 3-2</h5>
-                <p>...</p>
+                <h4>JavaScript</h4>
+                <p>Linguagem de programação da web.</p>
+              </div>
+              <div id="item-3-1">
+                <h5>Variáveis</h5>
+                <p>Posso usar o <code>let</code>, <code>const</code> e o <code>var</code>.</p>
+              </div>
+              <div id="item-3-2">
+                <h5>Funções</h5>
+                <p>Posso declarar assim: <code>function nomeFuncao() { return; }</code>.
+                </p>
+                
               </div>
             </div>
           </div>
@@ -292,33 +302,8 @@
           </div>
         </div>
 
-        <!-- Offcanvas -->
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
-
-        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <p>Try scrolling the rest of the page to see this option in action.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-        
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-
-        <br>
-
         <!-- Spinners -->
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center mt-5">
           <div class="spinner-border" role="status">
             <span class="visually-hidden">Loading...</span>
           </div>
@@ -327,7 +312,7 @@
         <br>
 
         <!-- Progress -->
-        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress mt-3" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
           <div class="progress-bar" style="width: 50%">Carregando... (50%)</div>
         </div>
 
@@ -352,22 +337,47 @@
         </div>
 
         <!-- Alert e Close Button -->
-        <div class="alert alert-danger d-flex justify-content-between" role="alert">
+        <div class="alert alert-danger d-flex justify-content-between mt-3" role="alert">
           Erro de conexão
           <button type="button" class="btn-close" aria-label="Close"></button>
         </div>
 
         <!-- Buttons -->
-        <div class="d-flex justify-content-around">
+        <div class="d-flex justify-content-around mt-5">
           <button type="button" class="btn btn-danger">Continuar com a versão demo</button>
           <button type="button" class="btn btn-success">Comprar curso completo</button>
         </div>
 
+        <!-- Offcanvas -->
+        <button class="btn btn-primary mt-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Mais informações do curso</button>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <p>Try scrolling the rest of the page to see this option in action.</p>
+          </div>
+        </div>
+
+        <h2 class="mt-5">Cursos recomendados</h2>
+
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title">Bootstrap</h5>
+            <p class="card-text">Framework CSS</p>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+
         <!-- Pagination-->
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center mt-5">
           <nav aria-label="Page navigation example">
             <ul class="pagination">
-              <li class="page-item desactive"><a class="page-link" href="#">Anterior</a></li>
+              <li class="page-item disabled"><a class="page-link" href="#">Anterior</a></li>
               <li class="page-item active"><a class="page-link" href="#">1</a></li>
               <li class="page-item"><a class="page-link" href="#">2</a></li>
               <li class="page-item"><a class="page-link" href="#">3</a></li>
